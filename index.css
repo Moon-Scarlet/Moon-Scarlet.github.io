@@ -1,0 +1,44 @@
+h1 {
+    color:red;
+    z-index: 3;
+  }
+
+p {
+    color:red;
+    font-size: 30px;
+}
+
+body canvas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.828);
+}
+
+#window {
+    width: 800px;
+}
+
+#score {
+    position: absolute;
+    width: 400px;
+    font-size: 40px;
+    color: red;
+}
+
+#timer {
+    position: absolute;
+    width: 400px;
+    font-size: 40px;
+    color: red;
+    left: 850px;
+}
